@@ -27,6 +27,7 @@ public class ReadExcel {
 		for (int i = 0; sheet.getRow(i)!=null; i++) {
 			row = sheet.getRow(i);
 			//ѭ����ȡһ�е�����
+			System.out.println("sdsd");
 			for (int j = 0; row.getCell(j)!=null; j++) {
 				System.out.print(row.getCell(j).toString()+" ");
 			}
